@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/temperature-converter/static/css/main.c049375a.css",
-    "main.js": "/temperature-converter/static/js/main.18073e08.js",
+    "main.css": "/temperature-converter/static/css/main.f7f2a0ab.css",
+    "main.js": "/temperature-converter/static/js/main.fb85ecfa.js",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/temperature-converter/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/fontawesome-webfont.eot": "/temperature-converter/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
     "static/media/fontawesome-webfont.ttf?v=4.7.0": "/temperature-converter/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
     "static/media/fontawesome-webfont.woff?v=4.7.0": "/temperature-converter/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/temperature-converter/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
     "index.html": "/temperature-converter/index.html",
-    "main.c049375a.css.map": "/temperature-converter/static/css/main.c049375a.css.map",
-    "main.18073e08.js.map": "/temperature-converter/static/js/main.18073e08.js.map"
+    "main.f7f2a0ab.css.map": "/temperature-converter/static/css/main.f7f2a0ab.css.map",
+    "main.fb85ecfa.js.map": "/temperature-converter/static/js/main.fb85ecfa.js.map"
   },
   "entrypoints": [
-    "static/css/main.c049375a.css",
-    "static/js/main.18073e08.js"
+    "static/css/main.f7f2a0ab.css",
+    "static/js/main.fb85ecfa.js"
   ]
 }
