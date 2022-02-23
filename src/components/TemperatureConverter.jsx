@@ -8,20 +8,18 @@ export const TemperatureConverter = () => {
   const resultRef = useRef();
 
   const convertionValue = value => {
-    const num = Number(value) || 0;
-    if (num) {
-      return isCelsius
-        ? `${num} F° = ${formula.toCelsius(num)} C°`
-        : `${num} C° = ${formula.toFahrenheit(num)} F°`;
-    } else {
-      return 0;
-    }
+    const num = Number(value);
+
+    if (isNaN(num)) return "ingresa solo números";
+
+    return isCelsius
+      ? `${num} F° = ${formula.toCelsius(num)} C°`
+      : `${num} C° = ${formula.toFahrenheit(num)} F°`;
   };
 
   // imprimir dentro del div result
   const printResult = str => {
-    const div = resultRef.current;
-    div.innerText = str || "ingresa solo números";
+    resultRef.current.innerText = str;
   };
 
   // actualizamos el estado

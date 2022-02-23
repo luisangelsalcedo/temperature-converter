@@ -4,4 +4,4 @@
 
 <br/>
 
-<img src="./src/asset/img/screenshot.jpg" width="300"/>
+<img src="https://raw.githubusercontent.com/luisangelsalcedo/temperature-converter/master/src/asset/img/screenshot.jpg" width="300"/>
