@@ -61,6 +61,9 @@ export const TemperatureConverter = () => {
           <div className="converter__input--unit">
             <span>{isCelsius ? "F°" : "C°"}</span>
           </div>
+          <label htmlFor="inputNum" className="converter__label">
+            <i class="fa fa-th" aria-hidden="true"></i>
+          </label>
         </div>
       </label>
       <UnitSelector
